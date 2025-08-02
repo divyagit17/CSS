@@ -1,0 +1,44 @@
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #628068;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: rgb(164, 196, 146);
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading uses Montserrat */
+.main-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #222;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Subheading uses Playfair Display */
+.sub-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #555;
+  font-style: italic;
+}
+
+/* Body text uses Open Sans */
+.body-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #444;
+}

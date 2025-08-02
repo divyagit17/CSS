@@ -1,0 +1,44 @@
+
+/* element selectors*/
+h1{
+    color:red;
+    font-size: 24px;
+}
+
+/*ID selectors*/
+#main-title {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+/*class selector*/
+
+.highlight {
+    color:brown
+}
+
+/*universal selector*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+
+/*grouping selector*/
+h2,p {
+    color: green;
+    font-family: Arial, sans-serif;
+}
+/*descendant selector*/
+ul li {
+    list-style-type: rectangle;
+    margin: 5px 0;
+}
+/*child selector*/
+div > form {
+    background-color: lightgray;
+    color: chocolate;
+    border: 5px solid rgb(62, 10, 204);
+    padding: 50px;
+}

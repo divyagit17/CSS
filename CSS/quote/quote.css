@@ -1,0 +1,44 @@
+body {
+  background-color: #75a1c7;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.quote-box {
+  max-width: 700px;
+  padding: 40px;
+  background-color: rgb(221, 223, 224);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #444;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(100, 100, 100, 0.1);
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #777;
+}

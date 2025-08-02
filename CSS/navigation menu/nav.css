@@ -1,0 +1,53 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Unordered list horizontal layout */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Normal link style */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+/* Hover state */
+.navbar a:hover {
+  background-color: #555;
+  color: #ffd700;
+}
+
+/* Active state (when clicked) */
+.navbar a:active {
+  background-color: #222;
+  color: #ff6347;
+}
+
+/* Visited state (after clicking a link) */
+.navbar a:visited {
+  color: #ccc;
+}
